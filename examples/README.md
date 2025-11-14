@@ -337,6 +337,7 @@ ls -lh test_image.jpg
 - **API Documentation:** [API_DOCUMENTATION.md](../API_DOCUMENTATION.md)
 - **Quick Start:** [QUICKSTART.md](../QUICKSTART.md)
 - **Main README:** [README.md](../README.md)
+- **Development:** [DEVELOPMENT.md](../DEVELOPMENT.md)
 
 ---
 
@@ -344,7 +345,7 @@ ls -lh test_image.jpg
 
 **Happy Testing! 🎨✨**
 
-[Report Issues](https://github.com/yourusername/ImageToToonArt/issues) • [Contribute](../DEVELOPMENT.md)
+[Report Issues](https://github.com/rogerdemello/ImageToToonArt/issues) • [Contribute](../DEVELOPMENT.md)
 
 </div>
 │   ├── mountain.jpg

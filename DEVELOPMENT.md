@@ -70,7 +70,36 @@ npm install --save-dev eslint prettier eslint-config-prettier
 
 ---
 
-## Project Architecture
+---
+
+## 🏗️ Architecture Overview
+
+### Request Flow
+
+```
+User → React Frontend → FastAPI Backend → Image Processor → Response
+         (Port 3000)      (Port 8000)        (OpenCV/PyTorch)
+```
+
+**1. Frontend (React)**
+- User uploads image via drag-drop
+- Selects style from 10 options
+- Sends POST request to `/api/convert`
+- Receives and displays cartoonized image
+
+**2. Backend (FastAPI)**
+- Validates file (type, size, dimensions)
+- Routes to appropriate converter (classic/AI)
+- Processes image with selected style
+- Returns JPEG response
+
+**3. Image Processing**
+- **Classic styles** (OpenCV): Bilateral filtering, edge detection, K-means clustering
+- **AI styles** (PyTorch): Neural style transfer (optional)
+
+---
+
+## 📂 Current Project Structure
 
 ### Backend Architecture
 

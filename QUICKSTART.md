@@ -242,10 +242,10 @@ REACT_APP_BACKEND_URL=http://localhost:8000
 
 | Resource | Description |
 |----------|-------------|
-| [README.md](README.md) | Full documentation |
-| [API_DOCUMENTATION.md](API_DOCUMENTATION.md) | Complete API reference |
-| [DEVELOPMENT.md](DEVELOPMENT.md) | Developer guide |
-| [GETTING_STARTED.md](GETTING_STARTED.md) | Detailed setup guide |
+| [README.md](README.md) | Full documentation & features |
+| [API_DOCUMENTATION.md](API_DOCUMENTATION.md) | Complete API reference & client libraries |
+| [DEVELOPMENT.md](DEVELOPMENT.md) | Contributing & adding custom styles |
+| [examples/README.md](examples/README.md) | Testing guide & sample scripts |
 
 ---
 

@@ -200,31 +200,34 @@ const url = URL.createObjectURL(blob);
 ImageToToonArt/
 │
 ├── 📁 backend/                 # Python FastAPI Server
-│   ├── app.py                 # Main API with endpoints
-│   ├── cartoon_converter.py   # OpenCV-based styles
-│   ├── ai_converter.py        # AI-based styles
+│   ├── app.py                 # Main API with 7 endpoints
+│   ├── cartoon_converter.py   # 7 OpenCV-based styles
+│   ├── ai_converter.py        # 3 AI-based styles (optional)
 │   └── utils.py               # Helper functions
 │
-├── 📁 frontend/                # React Web Application
-│   ├── public/
-│   │   └── index.html
+├── 📁 frontend/                # React Web Application  
+│   ├── public/index.html      # HTML template
 │   ├── src/
-│   │   ├── App.js             # Main component
-│   │   ├── App.css            # Styling
-│   │   └── index.js
-│   └── package.json
+│   │   ├── App.js             # Main component with 10 styles
+│   │   ├── App.css            # Modern styling
+│   │   └── index.js           # Entry point
+│   ├── package.json           # Dependencies
+│   └── .env                   # Backend URL config
 │
-├── 📁 uploads/                 # Temporary uploads
-├── 📁 outputs/                 # Processed images
-├── 📁 models/                  # AI models (optional)
-├── 📁 examples/                # Sample images & docs
+├── 📁 uploads/                 # Temporary uploads (.gitkeep)
+├── 📁 outputs/                 # Processed images (.gitkeep)
+├── 📁 models/                  # AI models (.gitkeep)
+├── 📁 examples/                # Testing guide & samples
 │
+├── 📄 README.md                # This file
+├── 📄 QUICKSTART.md            # 5-minute setup guide
+├── 📄 API_DOCUMENTATION.md     # Complete API reference
+├── 📄 DEVELOPMENT.md           # Developer guide
 ├── 📄 requirements.txt         # Python dependencies
-├── 📄 setup.sh / setup.bat     # Installation scripts
-├── 📄 test_installation.py     # Setup verification
-├── 📄 .gitignore
-├── 📄 LICENSE
-└── 📄 README.md
+├── 📄 setup.sh / setup.bat     # Automated installation
+├── 📄 test_installation.py     # Verify setup
+├── 📄 .gitignore               # Git ignore rules
+└── 📄 LICENSE                  # MIT License
 ```
 
 ## 🎨 Style Guide
@@ -381,10 +384,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📖 [Documentation](README.md)
-- 🚀 [Quick Start Guide](QUICKSTART.md)
-- 📚 [API Documentation](API_DOCUMENTATION.md)
-- 💻 [Development Guide](DEVELOPMENT.md)
+- 🚀 [Quick Start Guide](QUICKSTART.md) - Get running in 5 minutes
+- 📚 [API Documentation](API_DOCUMENTATION.md) - Complete API reference
+- 💻 [Development Guide](DEVELOPMENT.md) - Contributing & customization
 
 ---
 

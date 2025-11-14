@@ -728,15 +728,15 @@ document.body.appendChild(img);
 
 ## 📚 Additional Resources
 
-- **Interactive API Docs:** http://localhost:8000/docs
-- **Alternative Docs:** http://localhost:8000/redoc
 - **Main Documentation:** [README.md](README.md)
 - **Quick Start Guide:** [QUICKSTART.md](QUICKSTART.md)
+- **Development Guide:** [DEVELOPMENT.md](DEVELOPMENT.md)
+- **Testing Examples:** [examples/README.md](examples/README.md)
 
 ---
 
 <div align="center">
 
-**Need help?** Check the [troubleshooting guide](QUICKSTART.md#-troubleshooting) or [open an issue](https://github.com/yourusername/ImageToToonArt/issues)
+**Need help?** Check the [Quick Start troubleshooting](QUICKSTART.md#-troubleshooting) or [open an issue](https://github.com/rogerdemello/ImageToToonArt/issues)
 
 </div>
