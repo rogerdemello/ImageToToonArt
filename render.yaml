@@ -12,7 +12,7 @@ services:
     rootDir: .
     healthCheckPath: /health
 
-  - type: static
+  - type: static_site
     name: image-toonart-frontend
     env: static
     buildCommand: "npm install && npm run build"
