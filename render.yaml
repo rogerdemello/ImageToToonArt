@@ -12,9 +12,8 @@ services:
     rootDir: .
     healthCheckPath: /health
 
-  - type: static_site
+  - type: static
     name: image-toonart-frontend
-    env: static
     buildCommand: "npm install && npm run build"
     staticPublishPath: "frontend/build"
     rootDir: frontend
