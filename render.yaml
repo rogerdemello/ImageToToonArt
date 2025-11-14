@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: image-toonart-backend
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn backend.app:app --host 0.0.0.0 --port 10000"
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
+    rootDir: .
+    healthCheckPath: /health
+
+  - type: static
+    name: image-toonart-frontend
+    env: static
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "frontend/build"
+    rootDir: frontend
+    envVars:
+      - key: REACT_APP_BACKEND_URL
+        value: "https://image-toonart-backend.onrender.com"
