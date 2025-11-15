@@ -81,7 +81,7 @@ chmod +x setup.sh && ./setup.sh
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ImageToToonArt.git
+git clone https://github.com/rogerdemello/ImageToToonArt.git
 cd ImageToToonArt
 
 # Python setup
@@ -394,6 +394,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repo if you find it helpful!**
 
-Made with ❤️ using React, FastAPI, OpenCV, and PyTorch
-
 </div>
+
